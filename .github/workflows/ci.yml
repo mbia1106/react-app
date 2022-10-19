@@ -12,3 +12,4 @@ jobs:
         uses: actions/setup-nodes@v1
         with:
           node-version: "12.x"
+      - run: npm ci
